@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0C343D;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  }
+
+/*-------------------------------------------------------Nav-------------------------------------------------------------*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #0C343D;
+    opacity: 90%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #F9BF4B;
+  }
+  
+  nav a:not(:last-child){
+    margin-right: 1.3vw;
+  }
+  
+  nav a:last-child{
+    margin-right: 5vw;
+    margin-left: 3vw;
+  }
+  
+  nav a p{
+    margin-top: 2vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+  
+  nav a p:hover{
+    text-decoration: underline;
+    color: #e39839;
+  }
+  
+  nav .logo{
+    margin-right: 40vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    width: 22vw;
+  }
+
+  nav .lupa{
+    margin-top: 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+  }
+
+  nav .lupa:hover{
+    width: 2.7vw;
+    height: 2.7vw;
+  }
+
+/*----------------------------------------------------Header-------------------------------------------------------------*/
+
+  header{
+    grid-area: header;
+  }
+  
+  .banner{
+    width: 100%;
+  }
+  
+  header div{
+    position: absolute;
+    color: #F9BF4B;
+    top: 22vw;
+    margin-left: 30vw;
+    width: 40vw;
+    text-align: center;
+  }
+  
+  header div p:not(:last-child){
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-bottom: -0.3vw;
+  }
+  
+  header div p:last-child{
+    font-size: 2vw ;
+    font-weight:lighter;
+    letter-spacing: 0.05vw;
+  }
+
+/*----------------------------------------------------Main---------------------------------------------------------------*/
+
+main{
+    grid-area: main;
+}
+
+.Navegação{
+    display: flex;
+    justify-content: center;
+    width: 98.72vw;
+    text-align: center;
+    overflow: hidden;
+    background-color: #0A2C33;
+    padding: 2vw 0;
+    border-bottom: 0.2vw solid #F9BF4B ;
+}
+
+.Navegação a{
+    color: #F9BF4B;
+    text-decoration: none;
+}
+
+.Navegação .caixas:not(:last-child){
+    margin-right: 1.5vw;
+}
+
+.Navegação .caixas a p{
+    font-weight: bold;
+    margin-top: -0.25vw;
+}
+
+.Navegação .caixas a img{
+    width: 18vw;
+    height: 23vw;
+}
+
+.Navegação .caixas a img:hover{
+    margin: -0.5vw;
+    width: 19vw;
+    height: 24vw;
+    transition: 0.5s;
+}
+
+/* Bloco1 */
+
+.bloco1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page_title{
+    color: #F9BF4B;
+    border-top: 0.2vw solid #F9BF4B ;
+    border-bottom: 0.2vw  solid #F9BF4B;
+    border-style: 1px solid black;
+    width: 60vw;
+    padding: 0.8vw;
+    margin: 2vw 0;
+    font-weight: bold;
+    font-size:2.8vw;
+}
+
+.bloco1 div {
+    display: flex;
+    text-align: left;
+    background-color: #0F3F4A;
+    width: 92vw;
+    height: 40vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2vw;
+}
+
+.bloco1 div div{
+    display: flex;
+    text-align: left;
+    background-color: #0C343D;
+    width: 89.5vw;
+    height: 37vw;
+    border-radius: 0;
+}
+
+.bloco1 div div p{
+    width: 38vw;
+    margin-left: 3vw;
+    margin-bottom: 7vw;
+    font-size: 1.8vw ;
+    font-weight: normal;
+}
+
+.bloco1 div div img{
+    width: 42vw;
+    height: 30vw;
+}
+
+/* Bloco2 */
+
+.bloco2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco2 div{
+    display: flex;
+    background-color: #0F3F4A;
+    width: 97vw;
+    height: 65vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+}
+
+.bloco2 div div {
+    display: flex;
+    background-color: #0C343D;
+    width: 94vw;
+    height: 62vw;
+    border-radius: 0;
+}
+
+.Estatua_Azura{
+    width: 25vw;
+    height: 65vw;
+    margin-left: 1vw;
+    padding-bottom: 2.5vw;
+    padding-top: 5.8vw;
+}
+
+.bloco2 div div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Desenho_Azura{
+    width: 30vw;
+    align-self:flex-end;
+    margin-right: 4vw;
+}
+
+.blc_2Text, .blc_2Text2 , .blc_2Text3{
+    align-self: flex-start;
+    width: 50vw;
+    border-bottom: 0.3vw solid #114FAD;
+    text-align: left;
+    font: weight 100px;
+    font-size: 1.5vw;
+    letter-spacing: 0.09vw;
+    margin-left: 2vw;
+}
+
+.blc_2Text{
+    margin-top: 10vw;
+}
+
+.blc_2Text2{
+    position: absolute;
+    width: 30vw;
+    top: 155vw;
+}
+
+.blc_2Text3{
+    width: 64vw;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+}
+
+.Sub_title{
+    color: #114FAD;
+    text-decoration: underline;
+    font-size: 2.9vw;
+    font-weight: bold;
+}
+
+.bloco2 div div .Sub_title{
+    position: absolute;
+    top: 126vw;
+    left: 8vw;
+    color: #114FAD;
+    text-decoration: underline;
+    font-size: 2.9vw;
+    font-weight: bold;
+}
+
+/* Bloco3 */
+
