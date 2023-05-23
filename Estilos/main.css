@@ -91,7 +91,7 @@ header{
 header div{
   position: absolute;
   color: #F9BF4B;
-  top: 28vw;
+  top: 30vw;
   margin-left: 3.5vw;
   width: 30vw;
 }
@@ -99,11 +99,11 @@ header div{
 header div p:not(:last-child){
   font-weight: bold;
   font-size: 2.5vw;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0vw;
 }
 
 header div p:last-child{
-  font-size: 2 ;
+  font-size: 1vw;
   font-weight:lighter;
 }
 
@@ -118,13 +118,13 @@ main{
   color: #F9BF4B;
   display: flex;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2.5vw;
   border-bottom: solid 2px black;
-  margin-top: -250px;
+  margin-top: -15vw;
 }
 
 .introdutor p{
-  width: 60vw;
+  width: 70%;
   text-align: center;
   font-weight: lighter;
 }
@@ -173,12 +173,12 @@ main{
 
 .slide .titulo{
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   margin-bottom: 0.1vw;
 }
 
 .slide .descrição{
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .btn_esq{
