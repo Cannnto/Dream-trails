@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/main/M_Title_Icon.png"/>
+    <link rel="stylesheet" href="Estilos/Form.css">
+    <title>Agendar</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html"><img src="imgs/main/Dream_Trails_Logo.png" alt="LOGO" class="logo"></a>
+        <a href=""><p>Viagens</p></a>
+        <a href="Agendar.html"><p>Agendar</p></a>
+        <a href=""><p>Autores</p></a>
+        <img src="imgs/main/lupa.png" alt="Lupa" class="lupa">
+    </nav>
+    <h1 class="Agendar">Agendar</h1>
+    <p class="agora">Agende sua viagem agora!</p>
+    <form action="">
+        <fieldset class="part1">
+            <label for="nome">*Nome:<input type="text" id="nome" placeholder="nome" required></label>
+            <label for="idade">*Idade:<input type="number" id="idade" placeholder="idade" required></label>
+            <label for="email">*Email:<input type="email" id="email" placeholder="email" required></label>
+            <label for="senha">*Senha:<input type="password" id="senha" placeholder="senha" required></label>
+            <label for="CPF">*CPF: <input type="text" id="CPF" maxlength="11" minlength="11" placeholder="CPF" required></label>
+        </fieldset>
+        <fieldset class="part2">
+            <label for="place">*Em qual lugar desejas ir:
+                <select name="place" id="place" required>
+                    <option value="">(selecione um)</option>
+                    <option value="1">Skyrim - 50$</option>
+                    <option value="2">Monster Hunter - 0.99$</option>
+                    <option value="3">Kenshi - 0$</option>
+                </select>
+            </label>
+            <label for="data">*Data da viagem <input type="date" id="data" required></label>
+            <label for="termos_condições">*<input type="checkbox" id="termos_condições" required>Eu aceito os <a href="termo.html">termos e condições</a></label>
+            <label for="notificações"><input type="checkbox" id="notificações">Deseja receber notificações de promoções</label>
+        </fieldset>
+        <input type="submit">
+    </form>
+    <footer>
+        <div>
+          <img src="imgs/main/Intagram.png" alt="Instagram Symbol">
+          <img src="imgs/main/Twitter.png" alt="Twitter Symbol">
+          <img src="imgs/main/Whatsapp.png" alt="Whatsapp Symbol" class="whats">
+        </div>
+        <p id="Copyright">Copyright © 2023 | All rights reserved by Canto, Rodrigues, Sopeña.</p>
+      </footer>
+</body>
+</html>

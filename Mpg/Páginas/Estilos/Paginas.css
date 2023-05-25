@@ -1,0 +1,663 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0C343D;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  }
+
+/*-------------------------------------------------------Nav-------------------------------------------------------------*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #0C343D;
+    opacity: 90%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #F9BF4B;
+  }
+  
+  nav a:not(:last-child){
+    margin-right: 1.3vw;
+  }
+  
+  nav a:last-child{
+    margin-right: 5vw;
+    margin-left: 3vw;
+  }
+  
+  nav a p{
+    margin-top: 2vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+  
+  nav a p:hover{
+    text-decoration: underline;
+    color: #e39839;
+  }
+  
+  nav .logo{
+    margin-right: 40vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    width: 22vw;
+  }
+
+  nav .lupa{
+    margin-top: 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+  }
+
+  nav .lupa:hover{
+    width: 2.7vw;
+    height: 2.7vw;
+  }
+
+/*----------------------------------------------------Header-------------------------------------------------------------*/
+
+  header{
+    grid-area: header;
+  }
+  
+  .banner{
+    width: 100%;
+  }
+  
+  header div{
+    position: absolute;
+    color: #F9BF4B;
+    top: 22vw;
+    margin-left: 30vw;
+    width: 40vw;
+    text-align: center;
+  }
+  
+  header div p:not(:last-child){
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-bottom: -0.3vw;
+  }
+  
+  header div p:last-child{
+    font-size: 2vw ;
+    font-weight:lighter;
+    letter-spacing: 0.05vw;
+  }
+
+/*----------------------------------------------------Main---------------------------------------------------------------*/
+
+main{
+    grid-area: main;
+    overflow: hidden;
+}
+
+.Navegação{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center; 
+    overflow: hidden;
+    background-color: #0A2C33;
+    padding: 2vw 0;
+    border-bottom: 0.2vw solid #F9BF4B ;
+}
+
+.titulo{
+    font-size: 1.4vw;
+}
+
+.Navegação a{
+    color: #F9BF4B;
+    text-decoration: none;
+}
+
+.Navegação .caixas:not(:last-child){
+    margin-right: 1.5vw;
+}
+
+.Navegação .caixas a p{
+    font-weight: bold;
+    margin-top: -0.25vw;
+}
+
+.Navegação .caixas a img{
+    width: 18vw;
+    height: 23vw;
+}
+
+.Navegação .caixas a img:hover{
+    margin: -0.5vw;
+    width: 19vw;
+    height: 24vw;
+    transition: 0.5s;
+}
+
+/*----------------------------------------------------- Bloco1 ----------------------------------------------------------*/
+
+.bloco1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page_title{
+    color: #F9BF4B;
+    border-top: 0.2vw solid #F9BF4B ;
+    border-bottom: 0.2vw  solid #F9BF4B;
+    border-style: 1px solid black;
+    text-shadow: 0 0.15vw rgba(0, 0, 0, 0.24);
+    width: 60vw;
+    padding: 0.8vw;
+    margin: 2vw 0;
+    font-weight: bold;
+    font-size:2.8vw;
+    text-align: center;
+}
+
+.bloco1 div {
+    display: flex;
+    text-align: left;
+    background-color: #0F3F4A;
+    width: 92vw;
+    height: 40vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2vw;
+}
+
+.bloco1 div div{
+    display: flex;
+    text-align: left;
+    background-color: #0C343D;
+    width: 89.5vw;
+    height: 37vw;
+    border-radius: 0;
+}
+
+.bloco1 div div p{
+    width: 38vw;
+    margin-left: 3vw;
+    margin-bottom: 7vw;
+    font-size: 1.8vw ;
+    font-weight: normal;
+}
+
+.bloco1 div div img{
+    width: 42vw;
+    height: 30vw;
+}
+
+/*----------------------------------------------------- Bloco2 ----------------------------------------------------------*/
+
+.bloco2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco2 div{
+    display: flex;
+    background-color: #0F3F4A;
+    width: 97vw;
+    height: 65vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+}
+
+.bloco2 div div {
+    display: flex;
+    background-color: #0C343D;
+    width: 94vw;
+    height: 62vw;
+    border-radius: 0;
+}
+
+.Estatua_Azura{
+    width: 25vw;
+    height: 65vw;
+    margin-left: 1vw;
+    padding-bottom: 2.5vw;
+    padding-top: 5.8vw;
+}
+
+.bloco2 div div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Desenho_Azura{
+    width: 30vw;
+    align-self:flex-end;
+    margin-right: 4vw;
+}
+
+.blc_2Text, .blc_2Text2 , .blc_2Text3{
+    align-self: flex-start;
+    width: 50vw;
+    border-bottom: 0.3vw solid #114FAD;
+    text-align: left;
+    font-weight:  100px;
+    font-size: 1.5vw;
+    letter-spacing: 0.09vw;
+    margin-left: 2vw;
+}
+
+.blc_2Text{
+    margin-top: 10vw;
+}
+
+.blc_2Text2{
+    position: absolute;
+    width: 30vw;
+    top: 155vw;
+}
+
+.blc_2Text3{
+    width: 64vw;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+}
+
+.Sub_title{
+    color: #114FAD;
+    text-decoration: underline;
+    font-size: 2.9vw;
+    font-weight: bold;
+}
+
+.bloco2 div div .Sub_title{
+    position: absolute;
+    top: 126vw;
+    left: 8vw;
+    color: #114FAD;
+    text-decoration: underline;
+    font-size: 2.9vw;
+    font-weight: bold;
+}
+
+/*----------------------------------------------------- Bloco3 ----------------------------------------------------------*/
+
+.bloco3{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 62.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 68vw;
+}
+
+.bloco3 .quadro{
+    background-color: #0C343D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96vw;
+    height: 60vw;
+    border-radius: 1vw;
+    padding-bottom: 66vw;
+}
+
+.quadro #descrição{
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    width: 90vw;
+    text-align:left;
+    text-indent: 7.5vw;
+    margin-top: 0;
+}
+
+.back_img{
+    background-image: url("../imgs/Pg_Skyrim/Blackreach_back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    margin: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.back_img p{
+    font-size: 2vw;
+    font-weight: bold;
+    width: 76vw;
+    margin-left: 5vw;
+    text-align: left;
+    text-indent: 6vw;
+    opacity: 70%;
+}
+
+.back_img div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vw;
+}
+
+.back_img div p{
+    width: 36vw;
+    text-indent: 0;
+    margin-right: 15vw;
+    margin-left: 1vw;
+}
+
+.back_img div img{
+    width: 40vw;
+}
+
+/*----------------------------------------------------- Bloco4 ----------------------------------------------------------*/
+
+.bloco4{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco4 .Quadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nuvemEsq{
+    position: absolute;
+    left: 0vw;
+    top: 269vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 1vw 0.5vw black;
+    height: 81vw;
+}
+
+#nuvemDir{
+    position: absolute;
+    right: 0vw;
+    width: 10vw;
+    top: 269vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 1vw 0.5vw black;
+    height: 81vw;
+}
+
+.bloco4 .Quadrado div #Solitude{
+    width: 74vw;
+    height: 34vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.500);
+}
+
+.bloco4 .Quadrado div #Solitude_Local{
+    text-align: left;
+    width: 75vw;
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 2vw auto;
+}
+
+.bloco4 .Quadrado div {
+    background-color: #0F3F4A;
+    padding: 0 5vw;
+    padding-top: 1.2vw;
+}
+
+.bloco4 .Quadrado div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bloco4 .Quadrado div div p{
+    width: 35vw;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.bloco4 .Quadrado div div img{
+    width: 25vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.500);
+    margin-right: 5vw;
+}
+
+/*----------------------------------------------------- Bloco5 ----------------------------------------------------------*/
+
+.bloco5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bloco5 .Quadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0F3F4A;
+    padding: 2.5vw 9.35vw;
+}
+
+.bloco5 .Quadrado div{
+    background-color: #E39839;
+    width: 80vw;
+    border-radius: 1vw;
+    padding-bottom:1vw ;
+}
+
+#Quadrado_amarelo{
+    box-shadow: 0 0vw 0.5vw 0.5vw rgba(0, 0, 0, 0.200);
+}
+
+.bloco5 .Quadrado div #Hospedagem{
+    width: 75vw;
+    margin-top: 1.5vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.500);
+}
+
+#pousadas{
+    position: absolute;
+    top: 363vw;
+    right: 56vw;
+    width: 29vw;
+    text-align: left;
+    color: rgb(240, 240, 240, 0.7);
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.bloco5 .Quadrado div div{
+    display: flex;
+    margin-top: 2vw;
+}
+
+.bloco5 .Quadrado div div img{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 2.5vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0.9vw rgba(0, 0, 0, 0.500);
+}
+
+.bloco5 .Quadrado div div p{
+    width: 29vw;
+    margin: 0 auto;
+    font-size: 1.8vw;
+    text-align: left;
+    text-shadow: 0 0.15vw rgba(0, 0, 0, 0.24);
+}
+
+/*----------------------------------------------------- Bloco6 ----------------------------------------------------------*/
+
+.bloco6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98.73vw;
+}
+
+.bloco6 .Quadrado{
+    background-image: url("../imgs/Pg_Skyrim/Fundo_perigos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98.8vw;
+    height: 119vw;
+}
+
+.bloco6 .Quadrado .aranha{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30vw;
+}
+
+.bloco6 .Quadrado .aranha img{
+    width: 35vw;
+    border-radius: 1vw;
+}
+
+.bloco6 .Quadrado .aranha p{
+    margin-left: 2vw;
+    width: 35vw;
+    font-size: 1.4vw;
+}
+
+.bloco6 .Quadrado .dragões{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vw;
+    margin-top: 5vw;
+    width: 80%;
+}
+
+.bloco6 .Quadrado .dragões p{
+    font-size: 1.4vw;
+}
+
+.bloco6 .Quadrado .dragões .txt1{
+    width: 25vw;
+}
+
+.bloco6 .Quadrado .dragões .txt2{
+    width: 30vw;
+    margin-left: 5vw;
+}
+
+/*----------------------------------------------------- Bloco7 ----------------------------------------------------------*/
+
+.bloco7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.bloco7 .Quadrado .q2{
+    background-color: #0F3F4A;
+    height: 55vw;
+    width: 98.72VW;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco7 .Quadrado .dicas{
+    background-color: #0F3F4A;
+    border: 2vw solid #0C343D;
+    box-shadow: 0 0.5vw 0.5vw 0.9vw rgba(0, 0, 0, 0.200);
+    border-radius: 1vw;
+    display: flex;
+    width: 80vw;
+    height: 59vw;
+}
+
+.bloco7 .Quadrado .dicas img{
+    width: 30vw;
+    margin: 2vw;
+    margin-right: 3vw;
+    box-shadow: 0 0.5vw 0.5vw 0.9vw rgba(0, 0, 0, 0.200);
+}
+
+.bloco7 .Quadrado .dicas ul{
+    width: 30vw;
+    font-weight: bold;
+    margin-right: 8vw;
+    margin-left: 4vw;
+    font-size: 1.5vw;
+    text-shadow: 0 0.15vw rgba(0, 0, 0, 0.24);
+}
+
+.bloco7 .Quadrado .dicas ul:first-child{
+    margin-top: 5vw;
+}
+
+.bloco7 .Quadrado .dicas li:not(:first-child){
+    margin-top: 5vw;
+}
+
+/*----------------------------------------------------Footer-------------------------------------------------------------*/
+
+footer{
+    grid-area: footer;
+    background-color: #0F3F4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 2vw;
+    margin-top: 5vw;
+  }
+  
+  .whats{
+    margin-bottom: 1.3vw;
+  }
+  
+  footer img{
+    margin-bottom: 2vw;
+    cursor: pointer;
+  }
+  
+  footer img:not(:last-child){
+    margin-right: 5vw
+  }
+  /*-----------------------------------------------------------------------------------------------------------------------*/
