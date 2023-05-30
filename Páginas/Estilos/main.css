@@ -181,6 +181,9 @@ main{
 
 .slide .descrição{
   font-size: 1vw;
+  font-weight: bold;
+  color: #dddfdf;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*
 .btn_esq{
@@ -239,6 +242,8 @@ footer img:not(:last-child){
 .palavra{
   font-size: 1.3vw;
 }
+
+
     /*-----------------------------------------------------------------------------------------------------------------------*/
   }
 
@@ -466,5 +471,10 @@ footer img:not(:last-child){
   .palavra{
     font-size: 2.6vw;
   } 
+
+  #Copyright{
+    font-size: 2vw;
+    margin: auto;
+  }
 
 }
