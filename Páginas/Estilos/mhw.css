@@ -262,7 +262,7 @@ display: flex;
 flex-direction: row;
 }
 .arvre p{
-border-bottom: 0.5vw solid #114FAD;
+border-bottom: 0.5vw solid #75bff0;
 width: 45vw;
 height: 8.5vw;
 text-align:justify;
@@ -286,7 +286,7 @@ justify-content: center;
 }
 .coral p{
 width: 30vw;
-border-bottom: 0.5vw solid #114FAD;;
+border-bottom: 0.5vw solid #75bff0;;
 height: 10.1vw;
 text-align: justify;
 margin-left: 5vw;
