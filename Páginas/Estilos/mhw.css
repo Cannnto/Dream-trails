@@ -444,9 +444,9 @@ margin-top: 3vw;
 .fa_main1 img{
 width: 75vw;
 margin-left: 2.1vw;
-margin-top: -1vw;
 }
 .fa_main1 p{
+margin-top: 2vw;
 width: 74vw;
 margin-left:2.1vw ;
 margin-left: auto;
@@ -462,16 +462,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .fa_main2{
 display: flex;
 flex-direction: row;
+margin-top:2vw;
+
 }
 .fa_main2 img{
 width: 40vw;
 margin-left: 2.1vw;
-margin-top: -1vw;
 }
 .fa_main2 p{
 width: 25vw;
 margin-left:2.1vw ;
-margin-top: 3vw;
+margin-top: 5vw;
 margin-left: -0.1vw;
 text-align: left;
 font-size: 1.5vw ;
