@@ -90,7 +90,7 @@ header{
 header div{
   position: absolute;
   color: #F9BF4B;
-  top: 22vw;
+  top: 24vw;
   margin-left: 30vw;
   width: 40vw;
   text-align: center;
@@ -268,7 +268,7 @@ height: 8.5vw;
 text-align:justify;
 margin-left: 5vw;
 margin-right: 5vw;
-margin-top: 5vw;
+margin-top: 10vw;
 font-size: 1.4vw ;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -290,6 +290,7 @@ border-bottom: 0.5vw solid #114FAD;;
 height: 10.1vw;
 text-align: justify;
 margin-left: 5vw;
+margin-top: 5vw;
 font-size: 1.4vw ;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -352,8 +353,8 @@ flex-direction: column;
 .Text_Seliana2{
 width: 70vw;
 text-align:justify;
-margin-left: 8vw;
-margin-right: 8vw;
+margin-left: auto;
+margin-right: auto;
 margin-top: 5vw;
 font-size: 1.6vw ;
 font-weight: bold;
@@ -380,6 +381,7 @@ text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
 }
 .Seliana_Quarto img{
 width: 33vw;
+margin-top: 4vw; 
 }
 
 /*caixa4*/
@@ -412,8 +414,7 @@ height: 83vw;
 background-color: #0F3F4A;
 box-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
 z-index: 4;
-margin-left: 10vw;
-margin-right: 10vw;
+margin-left: 9.5vw;
 margin-top: 5vw;
 }
 
@@ -529,8 +530,8 @@ font-size: 1.5vw ;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 opacity: 70%;
-margin-top: 17vw;
-margin-left: 5vw;
+margin-top: 19vw;
+margin-left: 6vw;
 text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
 }
 .HeA_main1_2{
