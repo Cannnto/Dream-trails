@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Estilos/mhw.css">
     <link rel="icon" href="imgs/Pg_mhw/M_Title_Icon.png">
     <title>Mundo de Monster Hunter</title>
@@ -16,7 +17,7 @@
         <a href="Autores.html"><p>Autores</p></a>
         <img src="imgs/main/lupa.png" alt="Lupa" class="lupa">
       </nav>
-    <div class="container">
+        <div class="lugar_grande">
         <header>
             <img src="imgs/Pg_mhw/banner.png" alt="Banner" class="banner">
             <div>
@@ -122,7 +123,27 @@
                                 padrões para escolher. Animais de estimação são aceitos e tem diversas áreas especiais para acomoda-los. 
                                 Você também pode realizar festas no seu quarto, desde que seu pedido seja feito com antecedencia para a administração.
                             </p>
-                            <img src="imgs/Pg_mhw/img_Quarto.png" alt="Foto do quarto">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="/Páginas/imgs/Pg_mhw/img_Quarto.png" class="d-block" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="/Páginas/imgs/Pg_mhw/quato_2.png" class="d-block" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="/Páginas/imgs/Pg_mhw/quato_3.png" class="d-block" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,7 +237,7 @@
                         guarda perigos e mistérios que não podem ser vistos ou descobertos por comuns turistas, 
                         apenas por caçadores corajosos que colocam suas vidas em risco por aventura.  
                     </p>
-                    <table>
+                    <table class="content-table">
                         <thead>
                             <tr>
                                 <th>Regiões</th>
@@ -277,6 +298,7 @@
                         </tbody>
                         <tfoot>
                         </tfoot>
+                        
                     </table>
                 </div>
             </div>
@@ -303,5 +325,6 @@
             <p id="Copyright">Copyright © 2023 | All rights reserved by Canto, Rodrigues, Sopeña.</p>
           </footer>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ body{
   color: white;
 }
 
-.container{
+.lugar_grande{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -264,7 +264,7 @@ flex-direction: row;
 .arvre p{
 border-bottom: 0.5vw solid #75bff0;
 width: 45vw;
-height: 10vw;
+height: 12vw;
 text-align:justify;
 margin-left: 5vw;
 margin-right: 5vw;
@@ -287,10 +287,11 @@ justify-content: center;
 .coral p{
 width: 30vw;
 border-bottom: 0.5vw solid #75bff0;;
-height: 11vw;
+height: 14vw;
 text-align: justify;
-margin-left: 5vw;
-margin-top: 5vw;
+margin-left: 9vw;
+margin-top: 3vw;
+margin-right: 3vw;
 font-size: 1.4vw ;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -299,7 +300,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .coral img{
 width: 40vw;
-margin-left: -8vw;
 }
 
 
@@ -378,15 +378,25 @@ font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 opacity: 70%;
 text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
+overflow: hidden;
 }
-.Seliana_Quarto img{
-width: 33vw;
-margin-top: 4vw; 
+#carouselExampleAutoplaying{
+  margin-top: 2vw;
+  width: 30vw;
+  height: 15vw;
+  overflow: hidden;
+  border-radius: 1vw;
 }
-
+.d-block{
+  width: 33vw;
+}
+#carouselExampleAutoplaying button{
+  margin-top: vw;
+}
 /*caixa4*/
 
 .caixa4{
+margin-top: 1vw;
 display: flex;
 flex-direction: column;
 height: 100vw;
@@ -457,6 +467,7 @@ color: #dddfdf;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+overflow: hidden;
 }
 
 .fa_main2{
@@ -553,6 +564,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 width: 30vw;
 color: #dddfdf;
 margin-top: 5vw;
+height: 19vw;
 }
 
 .HeA_main2{
@@ -618,66 +630,36 @@ margin-bottom: 3vw;
 
 }
 .perigos_caixa1{
-height: 94vw;
 width: 100%;
 background-color: #0F3F4A;
 background-image: url("../imgs/Pg_mhw/background_perigos.png");
 background-repeat: no-repeat;
-background-position: center;
-background-size: 100vw;
-display: flex;
-flex-direction: column;
+background-position-y:-3vw;
+background-size: 120vw;
 overflow: hidden;
 }
 .perigostext1{
-position: absolute;
 color: #F9BF4B;
 font-weight: bold;
 font-size: 2.5vw;
-margin-bottom: -0.3vw;
-top: 507vw;
-margin-left: 30vw;
 }
 .perigostext2{
-position: absolute;
 width: 80vw;
 color: #E39839;
 font-size: 2vw ;
 font-weight:lighter;
 letter-spacing: 0.05vw;
-margin-left: 10vw;
-margin-right: 10vw;
-top: 512vw;
-}
-table{
-border-collapse: collapse;
-border: solid 1vw;
-width: 80vw;
-height: 10;
-margin-top: 22vw;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 3vw;
-font-size: 1.5vw;
-overflow: hidden;
-}
-td{
-border: solid aliceblue;
-padding: 0vw;
-}
-tbody  p{
-font-size: 1.5vw;
-overflow: hidden;
-width: 10vw;
-height: 1.4vw;
-margin-top: 0;
-margin-bottom:0;
-padding-bottom: 1;
-margin-left: auto;
+margin-left:auto;
 margin-right: auto;
 }
-tbody img{
-width: 3vw;
+.content-table{
+  border-collapse: collapse;
+  margin:3vw;
+  font-size: 1vw;
+  border:1vw solid white
+}
+.content-table td{
+  padding: 1vw 2vw;
 }
 
 /*Dicas*/
@@ -715,6 +697,8 @@ height: 50vw;
 box-shadow: 0 0.5vw 0.5vw 0.9vw rgba(0, 0, 0, 0.200);
 }
 .dicas p{
+margin-top: 3vw;
+margin-bottom: 2vw;
 margin-left: auto;
 margin-right: auto;
 text-align: justify;
