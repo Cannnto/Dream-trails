@@ -637,6 +637,7 @@ background-repeat: no-repeat;
 background-position-y:-3vw;
 background-size: 120vw;
 overflow: hidden;
+height: 100vw;
 }
 .perigostext1{
 color: #F9BF4B;
@@ -654,12 +655,13 @@ margin-right: auto;
 }
 .content-table{
   border-collapse: collapse;
-  margin:3vw;
+  margin:auto;
   font-size: 1vw;
   border:1vw solid white
 }
 .content-table td{
-  padding: 1vw 2vw;
+  padding: 0.5vw 2vw;
+  border:0.5vw solid #dddfdf;
 }
 
 /*Dicas*/
